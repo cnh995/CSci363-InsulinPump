@@ -1,0 +1,12 @@
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.frmMain.resources
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.Properties.Resources.resources
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.frmReadingHistory.resources
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.frmScheduleDose.resources
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.csproj.GenerateResource.Cache
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.csproj.CoreCompileInputs.cache
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\bin\Debug\InsulinPump.exe.config
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\bin\Debug\InsulinPump.exe
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\bin\Debug\InsulinPump.pdb
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.exe
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.pdb

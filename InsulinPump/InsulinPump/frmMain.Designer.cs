@@ -40,6 +40,14 @@
             this.insulinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bloodSugarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.batteryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblLatestReading = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblNextReadingTime = new System.Windows.Forms.Label();
+            this.btnScheduleDose = new System.Windows.Forms.Button();
+            this.btnReadingHistory = new System.Windows.Forms.Button();
+            this.btnUserSettings = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +58,7 @@
             this.valueEntryToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(304, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(295, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "mnuMainMenu";
             // 
@@ -116,29 +124,117 @@
             // insulinToolStripMenuItem
             // 
             this.insulinToolStripMenuItem.Name = "insulinToolStripMenuItem";
-            this.insulinToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.insulinToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.insulinToolStripMenuItem.Text = "Insulin";
             // 
             // bloodSugarToolStripMenuItem
             // 
             this.bloodSugarToolStripMenuItem.Name = "bloodSugarToolStripMenuItem";
-            this.bloodSugarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bloodSugarToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.bloodSugarToolStripMenuItem.Text = "Blood Sugar";
             // 
             // batteryToolStripMenuItem
             // 
             this.batteryToolStripMenuItem.Name = "batteryToolStripMenuItem";
-            this.batteryToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.batteryToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.batteryToolStripMenuItem.Text = "Battery";
             // 
-            // Form1
+            // lblLatestReading
+            // 
+            this.lblLatestReading.AutoSize = true;
+            this.lblLatestReading.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLatestReading.Location = new System.Drawing.Point(26, 56);
+            this.lblLatestReading.Name = "lblLatestReading";
+            this.lblLatestReading.Size = new System.Drawing.Size(81, 42);
+            this.lblLatestReading.TabIndex = 1;
+            this.lblLatestReading.Text = "120";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(161, 104);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Next Reading Time";
+            // 
+            // lblNextReadingTime
+            // 
+            this.lblNextReadingTime.AutoSize = true;
+            this.lblNextReadingTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNextReadingTime.Location = new System.Drawing.Point(166, 56);
+            this.lblNextReadingTime.Name = "lblNextReadingTime";
+            this.lblNextReadingTime.Size = new System.Drawing.Size(91, 42);
+            this.lblNextReadingTime.TabIndex = 4;
+            this.lblNextReadingTime.Text = "3:30";
+            // 
+            // btnScheduleDose
+            // 
+            this.btnScheduleDose.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScheduleDose.Location = new System.Drawing.Point(33, 178);
+            this.btnScheduleDose.Name = "btnScheduleDose";
+            this.btnScheduleDose.Size = new System.Drawing.Size(226, 68);
+            this.btnScheduleDose.TabIndex = 5;
+            this.btnScheduleDose.Text = "Schedule Next Dose";
+            this.btnScheduleDose.UseVisualStyleBackColor = true;
+            this.btnScheduleDose.Click += new System.EventHandler(this.btnScheduleDose_Click);
+            // 
+            // btnReadingHistory
+            // 
+            this.btnReadingHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReadingHistory.Location = new System.Drawing.Point(33, 270);
+            this.btnReadingHistory.Name = "btnReadingHistory";
+            this.btnReadingHistory.Size = new System.Drawing.Size(226, 68);
+            this.btnReadingHistory.TabIndex = 6;
+            this.btnReadingHistory.Text = "Reading History";
+            this.btnReadingHistory.UseVisualStyleBackColor = true;
+            this.btnReadingHistory.Click += new System.EventHandler(this.btnReadingHistory_Click);
+            // 
+            // btnUserSettings
+            // 
+            this.btnUserSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUserSettings.Location = new System.Drawing.Point(33, 362);
+            this.btnUserSettings.Name = "btnUserSettings";
+            this.btnUserSettings.Size = new System.Drawing.Size(226, 68);
+            this.btnUserSettings.TabIndex = 7;
+            this.btnUserSettings.Text = "User Settings";
+            this.btnUserSettings.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(49, 104);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Latest Reading";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(98, 75);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "mg/dl";
+            // 
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 521);
+            this.ClientSize = new System.Drawing.Size(295, 463);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.btnUserSettings);
+            this.Controls.Add(this.btnReadingHistory);
+            this.Controls.Add(this.btnScheduleDose);
+            this.Controls.Add(this.lblNextReadingTime);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblLatestReading);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "frmMain";
             this.Text = "Insulin Pump";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -161,6 +257,14 @@
         private System.Windows.Forms.ToolStripMenuItem insulinToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bloodSugarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem batteryToolStripMenuItem;
+        private System.Windows.Forms.Label lblLatestReading;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblNextReadingTime;
+        private System.Windows.Forms.Button btnScheduleDose;
+        private System.Windows.Forms.Button btnReadingHistory;
+        private System.Windows.Forms.Button btnUserSettings;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
     }
 }
 
