@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmInsulinInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInsulinInput.Designer.cs">
+      <DependentUpon>frmInsulinInput.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +59,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmReadingHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReadingHistory.Designer.cs">
+      <DependentUpon>frmReadingHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScheduleDose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScheduleDose.Designer.cs">
+      <DependentUpon>frmScheduleDose.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmInsulinInput.resx">
+      <DependentUpon>frmInsulinInput.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +86,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmReadingHistory.resx">
+      <DependentUpon>frmReadingHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScheduleDose.resx">
+      <DependentUpon>frmScheduleDose.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
