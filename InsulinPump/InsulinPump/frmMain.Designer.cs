@@ -80,36 +80,42 @@
             this.lowBatteryToolStripMenuItem.Name = "lowBatteryToolStripMenuItem";
             this.lowBatteryToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.lowBatteryToolStripMenuItem.Text = "Low Battery";
+            this.lowBatteryToolStripMenuItem.Click += new System.EventHandler(this.lowBatteryToolStripMenuItem_Click);
             // 
             // lowInsulinToolStripMenuItem
             // 
             this.lowInsulinToolStripMenuItem.Name = "lowInsulinToolStripMenuItem";
             this.lowInsulinToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.lowInsulinToolStripMenuItem.Text = "Low Insulin";
+            this.lowInsulinToolStripMenuItem.Click += new System.EventHandler(this.lowInsulinToolStripMenuItem_Click);
             // 
             // replaceNeedleToolStripMenuItem
             // 
             this.replaceNeedleToolStripMenuItem.Name = "replaceNeedleToolStripMenuItem";
             this.replaceNeedleToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.replaceNeedleToolStripMenuItem.Text = "Replace Needle";
+            this.replaceNeedleToolStripMenuItem.Click += new System.EventHandler(this.replaceNeedleToolStripMenuItem_Click);
             // 
             // highBloodSugarToolStripMenuItem
             // 
             this.highBloodSugarToolStripMenuItem.Name = "highBloodSugarToolStripMenuItem";
             this.highBloodSugarToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.highBloodSugarToolStripMenuItem.Text = "High Blood Sugar";
+            this.highBloodSugarToolStripMenuItem.Click += new System.EventHandler(this.highBloodSugarToolStripMenuItem_Click);
             // 
             // lowBloodSugarToolStripMenuItem
             // 
             this.lowBloodSugarToolStripMenuItem.Name = "lowBloodSugarToolStripMenuItem";
             this.lowBloodSugarToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.lowBloodSugarToolStripMenuItem.Text = "Low Blood Sugar";
+            this.lowBloodSugarToolStripMenuItem.Click += new System.EventHandler(this.lowBloodSugarToolStripMenuItem_Click);
             // 
             // disconnectedToolStripMenuItem
             // 
             this.disconnectedToolStripMenuItem.Name = "disconnectedToolStripMenuItem";
             this.disconnectedToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.disconnectedToolStripMenuItem.Text = "Disconnected";
+            this.disconnectedToolStripMenuItem.Click += new System.EventHandler(this.disconnectedToolStripMenuItem_Click);
             // 
             // valueEntryToolStripMenuItem
             // 
@@ -124,8 +130,9 @@
             // insulinToolStripMenuItem
             // 
             this.insulinToolStripMenuItem.Name = "insulinToolStripMenuItem";
-            this.insulinToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.insulinToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.insulinToolStripMenuItem.Text = "Insulin";
+            this.insulinToolStripMenuItem.Click += new System.EventHandler(this.insulinToolStripMenuItem_Click);
             // 
             // bloodSugarToolStripMenuItem
             // 

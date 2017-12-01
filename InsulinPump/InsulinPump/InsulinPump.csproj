@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmInsulinInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInsulinInput.Designer.cs">
+      <DependentUpon>frmInsulinInput.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     <Compile Include="frmScheduleDose.Designer.cs">
       <DependentUpon>frmScheduleDose.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmInsulinInput.resx">
+      <DependentUpon>frmInsulinInput.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>

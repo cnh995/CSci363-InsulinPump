@@ -15,6 +15,9 @@ namespace InsulinPump
         public static int dosage;
         public static string doseDate;
         public static string doseTime;
+        public static int insulinRemaining;
+        public static int bloodSugar;
+        public static int batteryLevel;
         public static frmMain gfrmMain = new frmMain();
 
         public frmMain()
@@ -38,6 +41,41 @@ namespace InsulinPump
             lfrmReadingHistory.Show();
             lfrmReadingHistory.Location = this.Location;
             this.Hide();
+        }
+
+        private void lowBatteryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your battery is low, please charge your device.", "Low Battery");
+        }
+
+        private void lowInsulinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your insulin cartridge is low, please refill your insulin.", "Low Insulin");
+        }
+
+        private void replaceNeedleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your needle must be replaced.", "Replace Needle");
+        }
+
+        private void highBloodSugarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your blood sugar is too high, please schedule an insulin dose.", "High Blood Sugar");
+        }
+
+        private void lowBloodSugarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your blood sugar is too low, please eat to increase your blood sugar.", "Low Blood Sugar");
+        }
+
+        private void disconnectedToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your device has disconnected, please reconnect or manually monitor your blood sugar.", "Device Disconnected");
+        }
+
+        private void insulinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
