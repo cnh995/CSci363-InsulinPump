@@ -10,3 +10,4 @@ E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\bin\Debug\Insuli
 E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\bin\Debug\InsulinPump.pdb
 E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.exe
 E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.pdb
+E:\Documents\GitHub\CSci363-InsulinPump\InsulinPump\InsulinPump\obj\Debug\InsulinPump.frmInsulinInput.resources
