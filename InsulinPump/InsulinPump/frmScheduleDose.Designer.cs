@@ -32,10 +32,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.dtpDate = new System.Windows.Forms.DateTimePicker();
-            this.dtpTime = new System.Windows.Forms.DateTimePicker();
             this.nudDosage = new System.Windows.Forms.NumericUpDown();
             this.btnSave = new System.Windows.Forms.Button();
+            this.dtpDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpTime = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.nudDosage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,27 +80,6 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Time:";
             // 
-            // dtpDate
-            // 
-            this.dtpDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDate.Location = new System.Drawing.Point(159, 176);
-            this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(124, 29);
-            this.dtpDate.TabIndex = 8;
-            this.dtpDate.Value = new System.DateTime(2017, 11, 30, 0, 0, 0, 0);
-            // 
-            // dtpTime
-            // 
-            this.dtpTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtpTime.ImeMode = System.Windows.Forms.ImeMode.HangulFull;
-            this.dtpTime.Location = new System.Drawing.Point(159, 227);
-            this.dtpTime.Name = "dtpTime";
-            this.dtpTime.Size = new System.Drawing.Size(124, 29);
-            this.dtpTime.TabIndex = 9;
-            this.dtpTime.Value = new System.DateTime(2017, 11, 30, 0, 0, 0, 0);
-            // 
             // nudDosage
             // 
             this.nudDosage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -124,6 +103,27 @@
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // dtpDate
+            // 
+            this.dtpDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDate.Location = new System.Drawing.Point(159, 176);
+            this.dtpDate.Name = "dtpDate";
+            this.dtpDate.Size = new System.Drawing.Size(124, 29);
+            this.dtpDate.TabIndex = 8;
+            this.dtpDate.Value = new System.DateTime(2017, 11, 30, 0, 0, 0, 0);
+            // 
+            // dtpTime
+            // 
+            this.dtpTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpTime.ImeMode = System.Windows.Forms.ImeMode.HangulFull;
+            this.dtpTime.Location = new System.Drawing.Point(159, 227);
+            this.dtpTime.Name = "dtpTime";
+            this.dtpTime.Size = new System.Drawing.Size(124, 29);
+            this.dtpTime.TabIndex = 9;
+            this.dtpTime.Value = new System.DateTime(2017, 11, 30, 0, 0, 0, 0);
             // 
             // frmScheduleDose
             // 
@@ -151,9 +151,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dtpDate;
-        private System.Windows.Forms.DateTimePicker dtpTime;
         private System.Windows.Forms.NumericUpDown nudDosage;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.DateTimePicker dtpDate;
+        private System.Windows.Forms.DateTimePicker dtpTime;
     }
 }
