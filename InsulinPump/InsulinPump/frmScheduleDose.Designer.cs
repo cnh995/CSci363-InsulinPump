@@ -94,6 +94,7 @@
             // 
             this.dtpTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpTime.ImeMode = System.Windows.Forms.ImeMode.HangulFull;
             this.dtpTime.Location = new System.Drawing.Point(159, 227);
             this.dtpTime.Name = "dtpTime";
             this.dtpTime.Size = new System.Drawing.Size(124, 29);

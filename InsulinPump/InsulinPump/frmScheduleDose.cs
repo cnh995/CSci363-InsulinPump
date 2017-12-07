@@ -27,6 +27,7 @@ namespace InsulinPump
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            frmMain.fromFrmScheduleDose = true;
             frmMain.dosage = Convert.ToInt32(nudDosage.Value);
             frmMain.doseDate = dtpDate.Text;
             frmMain.doseTime = dtpTime.Text;

@@ -130,7 +130,7 @@
             // insulinToolStripMenuItem
             // 
             this.insulinToolStripMenuItem.Name = "insulinToolStripMenuItem";
-            this.insulinToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.insulinToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.insulinToolStripMenuItem.Text = "Insulin";
             this.insulinToolStripMenuItem.Click += new System.EventHandler(this.insulinToolStripMenuItem_Click);
             // 
@@ -243,6 +243,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
             this.Text = "Insulin Pump";
+            this.Shown += new System.EventHandler(this.frmMain_Shown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
