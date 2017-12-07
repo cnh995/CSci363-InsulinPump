@@ -18,13 +18,13 @@ namespace InsulinPump
         public static int insulinRemaining;
         public static int bloodSugar;
         public static int batteryLevel;
+        public static Boolean fromFrmScheduleDose = false;
         public static frmMain gfrmMain = new frmMain();
 
         public frmMain()
         {
             InitializeComponent();
 
-            MessageBox.Show(dosage.ToString() + doseDate + doseTime);
         }
 
         private void btnScheduleDose_Click(object sender, EventArgs e)
@@ -75,7 +75,16 @@ namespace InsulinPump
 
         private void insulinToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void frmMain_Shown(object sender, EventArgs e)
+        {
+            if (fromFrmScheduleDose)
+            {
+                MessageBox.Show(dosage.ToString() + doseDate + doseTime);
+                fromFrmScheduleDose = false;
+            }
         }
     }
 }
