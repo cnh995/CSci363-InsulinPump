@@ -75,7 +75,8 @@ namespace InsulinPump
 
         private void insulinToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmInsulinInput lfrmInsulinInput = new frmInsulinInput();
+            lfrmInsulinInput.Show();
         }
 
         private void frmMain_Shown(object sender, EventArgs e)
